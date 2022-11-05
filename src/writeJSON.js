@@ -18,7 +18,7 @@ function writeJSON() {
     return {
       title: book.title,
       author: book.author,
-      image: `./img/${book.image}.jpg`,
+      image: `${book.image}.jpg`,
       chosenBy: book.chosenBy,
       meetDate: book.meetDate,
       stats: {

@@ -2,9 +2,9 @@
   {
     "title": "Ready Player One",
     "author": "Ernest Cline",
-    "image": "./img/ready-player-one.jpg",
+    "image": "ready-player-one.jpg",
     "chosenBy": "joe",
-    "meetDate": "2017-11-26",
+    "meetDate": "11/26/2017",
     "stats": {
       "publishYear": "2011",
       "audioHours": 15.67,
@@ -23,9 +23,9 @@
   {
     "title": "The Wright Brothers",
     "author": "David McCullough",
-    "image": "./img/wright-brothers.jpg",
+    "image": "wright-brothers.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2018-01-26",
+    "meetDate": "01/26/2018",
     "stats": {
       "publishYear": "2015",
       "audioHours": 10.03,
@@ -44,9 +44,9 @@
   {
     "title": "Artemis",
     "author": "Andy Weir",
-    "image": "./img/artemis.jpg",
+    "image": "artemis.jpg",
     "chosenBy": "connor",
-    "meetDate": "2018-03-13",
+    "meetDate": "03/13/2018",
     "stats": {
       "publishYear": "2017",
       "audioHours": 8.95,
@@ -65,9 +65,9 @@
   {
     "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "image": "./img/fahrenheit-451.jpg",
+    "image": "fahrenheit-451.jpg",
     "chosenBy": "kris",
-    "meetDate": "2018-03-18",
+    "meetDate": "03/18/2018",
     "stats": {
       "publishYear": "1953",
       "audioHours": 5.02,
@@ -80,9 +80,9 @@
   {
     "title": "American Buffalo",
     "author": "Steven Rinella",
-    "image": "./img/american-buffalo.jpg",
+    "image": "american-buffalo.jpg",
     "chosenBy": "joe",
-    "meetDate": "2018-04-28",
+    "meetDate": "04/28/2018",
     "stats": {
       "publishYear": "2008",
       "audioHours": 7.7,
@@ -95,9 +95,9 @@
   {
     "title": "Anthem",
     "author": "Ayn Rand",
-    "image": "./img/anthem.jpg",
+    "image": "anthem.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2018-05-20",
+    "meetDate": "05/20/2018",
     "stats": {
       "publishYear": "1938",
       "audioHours": 2.27,
@@ -110,9 +110,9 @@
   {
     "title": "Grapes of Wrath",
     "author": "John Steinbeck",
-    "image": "./img/grapes-of-wrath.jpg",
+    "image": "grapes-of-wrath.jpg",
     "chosenBy": "connor",
-    "meetDate": "2018-07-08",
+    "meetDate": "07/08/2018",
     "stats": {
       "publishYear": "1939",
       "audioHours": 21.02,
@@ -131,9 +131,9 @@
   {
     "title": "2001: A Space Odyssey",
     "author": "Sir Arthur C. Clarke",
-    "image": "./img/2001.jpg",
+    "image": "2001.jpg",
     "chosenBy": "kris",
-    "meetDate": "2018-08-12",
+    "meetDate": "08/12/2018",
     "stats": {
       "publishYear": "1968",
       "audioHours": 6.7,
@@ -146,9 +146,9 @@
   {
     "title": "The Botany of Desire",
     "author": "Michael Pollan",
-    "image": "./img/botany-of-desire.jpg",
+    "image": "botany-of-desire.jpg",
     "chosenBy": "joe",
-    "meetDate": "2018-09-05",
+    "meetDate": "09/05/2018",
     "stats": {
       "publishYear": "2001",
       "audioHours": 8.53,
@@ -161,9 +161,9 @@
   {
     "title": "Black Swan",
     "author": "Nassim Nicholas Taleb",
-    "image": "./img/black-swan.jpg",
+    "image": "black-swan.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2018-12-14",
+    "meetDate": "12/14/2018",
     "stats": {
       "publishYear": "2007",
       "audioHours": 15.8,
@@ -176,9 +176,9 @@
   {
     "title": "On the Road",
     "author": "Jack Kerouac",
-    "image": "./img/on-the-road.jpg",
+    "image": "on-the-road.jpg",
     "chosenBy": "connor",
-    "meetDate": "2019-02-25",
+    "meetDate": "02/25/2019",
     "stats": {
       "publishYear": "1957",
       "audioHours": 11.13,
@@ -191,9 +191,9 @@
   {
     "title": "The Big Picture",
     "author": "Sean Carroll",
-    "image": "./img/big-picture.jpg",
+    "image": "big-picture.jpg",
     "chosenBy": "kris",
-    "meetDate": "2019-04-03",
+    "meetDate": "04/03/2019",
     "stats": {
       "publishYear": "2016",
       "audioHours": 17.37,
@@ -206,9 +206,9 @@
   {
     "title": "The Uninhabitable Earth",
     "author": "David Wallace-Wells",
-    "image": "./img/uninhabitable-earth.jpg",
+    "image": "uninhabitable-earth.jpg",
     "chosenBy": "joe",
-    "meetDate": "2019-05-05",
+    "meetDate": "05/05/2019",
     "stats": {
       "publishYear": "2019",
       "audioHours": 9,
@@ -221,9 +221,9 @@
   {
     "title": "The Death of Democracy",
     "author": "Benjamin Carter Hett",
-    "image": "./img/death-of-democracy.jpg",
+    "image": "death-of-democracy.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2019-06-16",
+    "meetDate": "06/16/2019",
     "stats": {
       "publishYear": "2018",
       "audioHours": 11.42,
@@ -236,9 +236,9 @@
   {
     "title": "All Quiet on the Western Front",
     "author": "Erich Maria Remarque",
-    "image": "./img/all-quiet.jpg",
+    "image": "all-quiet.jpg",
     "chosenBy": "connor",
-    "meetDate": "2019-08-06",
+    "meetDate": "08/06/2019",
     "stats": {
       "publishYear": "1929",
       "audioHours": 6.92,
@@ -257,9 +257,9 @@
   {
     "title": "Contact",
     "author": "Carl Sagan",
-    "image": "./img/contact.jpg",
+    "image": "contact.jpg",
     "chosenBy": "kris",
-    "meetDate": "2019-10-06",
+    "meetDate": "10/06/2019",
     "stats": {
       "publishYear": "1985",
       "audioHours": 14.75,
@@ -272,9 +272,9 @@
   {
     "title": "The Selfish Gene",
     "author": "Richard Dawkins",
-    "image": "./img/selfish-gene.jpg",
+    "image": "selfish-gene.jpg",
     "chosenBy": "joe",
-    "meetDate": "2019-12-04",
+    "meetDate": "12/04/2019",
     "stats": {
       "publishYear": "1976",
       "audioHours": 16.2,
@@ -293,9 +293,9 @@
   {
     "title": "The Marquis",
     "author": "Laura Auricchio",
-    "image": "./img/marquis.jpg",
+    "image": "marquis.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2020-01-12",
+    "meetDate": "01/12/2020",
     "stats": {
       "publishYear": "2014",
       "audioHours": 12.73,
@@ -308,9 +308,9 @@
   {
     "title": "Cloud Atlas",
     "author": "David Michell",
-    "image": "./img/cloud-atlas.jpg",
+    "image": "cloud-atlas.jpg",
     "chosenBy": "connor",
-    "meetDate": "2020-02-09",
+    "meetDate": "02/09/2020",
     "stats": {
       "publishYear": "2004",
       "audioHours": 19.8,
@@ -329,9 +329,9 @@
   {
     "title": "The Outsiders",
     "author": "S.E. Hinton",
-    "image": "./img/outsiders.jpg",
+    "image": "outsiders.jpg",
     "chosenBy": "kris",
-    "meetDate": "2020-03-04",
+    "meetDate": "03/04/2020",
     "stats": {
       "publishYear": "1997",
       "audioHours": 5.13,
@@ -344,9 +344,9 @@
   {
     "title": "The Gulf",
     "author": "Jack E. Davis",
-    "image": "./img/gulf.jpg",
+    "image": "gulf.jpg",
     "chosenBy": "joe",
-    "meetDate": "2020-04-28",
+    "meetDate": "04/28/2020",
     "stats": {
       "publishYear": "2017",
       "audioHours": 20.75,
@@ -359,9 +359,9 @@
   {
     "title": "One Minute to Midnight",
     "author": "Michael Dobbs",
-    "image": "./img/one-minute.jpg",
+    "image": "one-minute.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2020-06-03",
+    "meetDate": "06/03/2020",
     "stats": {
       "publishYear": "2022",
       "audioHours": 16.4,
@@ -374,9 +374,9 @@
   {
     "title": "The Lions of Al-Rassan",
     "author": "Guy Gavriel Kay",
-    "image": "./img/lions.jpg",
+    "image": "lions.jpg",
     "chosenBy": "connor",
-    "meetDate": "2020-06-24",
+    "meetDate": "06/24/2020",
     "stats": {
       "publishYear": "1995",
       "audioHours": 19.65,
@@ -389,9 +389,9 @@
   {
     "title": "A Time to Kill",
     "author": "John Grisham",
-    "image": "./img/time-to-kill.jpg",
+    "image": "time-to-kill.jpg",
     "chosenBy": "kris",
-    "meetDate": "2020-07-23",
+    "meetDate": "07/23/2020",
     "stats": {
       "publishYear": "1989",
       "audioHours": 16.78,
@@ -404,9 +404,9 @@
   {
     "title": "The Immortal Life of Henrietta Lacks",
     "author": "Rebecca Skloot",
-    "image": "./img/henrietta-lacks.jpg",
+    "image": "henrietta-lacks.jpg",
     "chosenBy": "joe",
-    "meetDate": "2020-08-08",
+    "meetDate": "08/08/2020",
     "stats": {
       "publishYear": "2010",
       "audioHours": 12.5,
@@ -419,9 +419,9 @@
   {
     "title": "Thunder at the Gates",
     "author": "Douglas R. Egerton",
-    "image": "./img/thunder.jpg",
+    "image": "thunder.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2020-09-15",
+    "meetDate": "09/15/2020",
     "stats": {
       "publishYear": "2016",
       "audioHours": 13.18,
@@ -434,9 +434,9 @@
   {
     "title": "The Haunting of Hill House",
     "author": "Shirley Jackson",
-    "image": "./img/hill-house.jpg",
+    "image": "hill-house.jpg",
     "chosenBy": "connor",
-    "meetDate": "2020-10-29",
+    "meetDate": "10/29/2020",
     "stats": {
       "publishYear": "2018",
       "audioHours": 7.45,
@@ -449,9 +449,9 @@
   {
     "title": "How to Change your Mind",
     "author": "Michael Pollan",
-    "image": "./img/change-your-mind.jpg",
+    "image": "change-your-mind.jpg",
     "chosenBy": "kris",
-    "meetDate": "2020-12-01",
+    "meetDate": "12/01/2020",
     "stats": {
       "publishYear": "2018",
       "audioHours": 13.58,
@@ -470,9 +470,9 @@
   {
     "title": "Leviathan",
     "author": "Eric Jay Dolin",
-    "image": "./img/leviathan.jpg",
+    "image": "leviathan.jpg",
     "chosenBy": "joe",
-    "meetDate": "2020-12-30",
+    "meetDate": "12/30/2020",
     "stats": {
       "publishYear": "2007",
       "audioHours": 15.95,
@@ -485,9 +485,9 @@
   {
     "title": "Decisive",
     "author": "Chip Heath & Dan Heath",
-    "image": "./img/decisive.jpg",
+    "image": "decisive.jpg",
     "chosenBy": "rusty",
-    "meetDate": "2021-01-13",
+    "meetDate": "01/13/2021",
     "stats": {
       "publishYear": "2013",
       "audioHours": 9.15,
@@ -500,9 +500,9 @@
   {
     "title": "Moby Dick",
     "author": "Herman Melville",
-    "image": "./img/moby-dick.jpg",
+    "image": "moby-dick.jpg",
     "chosenBy": "connor",
-    "meetDate": "2021-02-12",
+    "meetDate": "02/12/2021",
     "stats": {
       "publishYear": "1851",
       "audioHours": 24.82,
@@ -515,9 +515,9 @@
   {
     "title": "Into Thin Air",
     "author": "Jon Krakauer",
-    "image": "./img/into-thin-air.jpg",
+    "image": "into-thin-air.jpg",
     "chosenBy": "kris",
-    "meetDate": "2021-03-04",
+    "meetDate": "03/04/2021",
     "stats": {
       "publishYear": "1997",
       "audioHours": 9.13,
