@@ -1,0 +1,530 @@
+[
+  {
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "image": "./img/ready-player-one.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2017-11-26",
+    "stats": {
+      "publishYear": "2011",
+      "audioHours": 15.67,
+      "pageCount": 374,
+      "wordCount": 144914,
+      "fiction": true
+    },
+    "ratings": {
+      "connor": null,
+      "joe": null,
+      "kris": null,
+      "rusty": null,
+      "avg": null
+    }
+  },
+  {
+    "title": "The Wright Brothers",
+    "author": "David McCullough",
+    "image": "./img/wright-brothers.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2018-01-26",
+    "stats": {
+      "publishYear": "2015",
+      "audioHours": 10.03,
+      "pageCount": 320,
+      "wordCount": 93912,
+      "fiction": false
+    },
+    "ratings": {
+      "connor": null,
+      "joe": null,
+      "kris": null,
+      "rusty": null,
+      "avg": null
+    }
+  },
+  {
+    "title": "Artemis",
+    "author": "Andy Weir",
+    "image": "./img/artemis.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2018-03-13",
+    "stats": {
+      "publishYear": "2017",
+      "audioHours": 8.95,
+      "pageCount": 305,
+      "wordCount": 84309,
+      "fiction": true
+    },
+    "ratings": {
+      "connor": null,
+      "joe": null,
+      "kris": null,
+      "rusty": null,
+      "avg": null
+    }
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "image": "./img/fahrenheit-451.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2018-03-18",
+    "stats": {
+      "publishYear": "1953",
+      "audioHours": 5.02,
+      "pageCount": 194,
+      "wordCount": 68609,
+      "fiction": true
+    },
+    "ratings": { "connor": 95, "joe": 97, "kris": 93, "rusty": 97, "avg": 95.5 }
+  },
+  {
+    "title": "American Buffalo",
+    "author": "Steven Rinella",
+    "image": "./img/american-buffalo.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2018-04-28",
+    "stats": {
+      "publishYear": "2008",
+      "audioHours": 7.7,
+      "pageCount": 256,
+      "wordCount": 72534,
+      "fiction": false
+    },
+    "ratings": { "connor": 70, "joe": 80, "kris": 88, "rusty": 50, "avg": 72 }
+  },
+  {
+    "title": "Anthem",
+    "author": "Ayn Rand",
+    "image": "./img/anthem.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2018-05-20",
+    "stats": {
+      "publishYear": "1938",
+      "audioHours": 2.27,
+      "pageCount": 105,
+      "wordCount": 22294,
+      "fiction": true
+    },
+    "ratings": { "connor": 85, "joe": 75, "kris": 78, "rusty": 67, "avg": 76.3 }
+  },
+  {
+    "title": "Grapes of Wrath",
+    "author": "John Steinbeck",
+    "image": "./img/grapes-of-wrath.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2018-07-08",
+    "stats": {
+      "publishYear": "1939",
+      "audioHours": 21.02,
+      "pageCount": 479,
+      "wordCount": 166452,
+      "fiction": true
+    },
+    "ratings": {
+      "connor": 100,
+      "joe": 100,
+      "kris": 94,
+      "rusty": 95,
+      "avg": 97.3
+    }
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "author": "Sir Arthur C. Clarke",
+    "image": "./img/2001.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2018-08-12",
+    "stats": {
+      "publishYear": "1968",
+      "audioHours": 6.7,
+      "pageCount": 297,
+      "wordCount": 63428,
+      "fiction": true
+    },
+    "ratings": { "connor": 90, "joe": 90, "kris": 95, "rusty": 65, "avg": 85 }
+  },
+  {
+    "title": "The Botany of Desire",
+    "author": "Michael Pollan",
+    "image": "./img/botany-of-desire.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2018-09-05",
+    "stats": {
+      "publishYear": "2001",
+      "audioHours": 8.53,
+      "pageCount": 304,
+      "wordCount": 80384,
+      "fiction": false
+    },
+    "ratings": { "connor": 88, "joe": 88, "kris": 92, "rusty": 75, "avg": 85.8 }
+  },
+  {
+    "title": "Black Swan",
+    "author": "Nassim Nicholas Taleb",
+    "image": "./img/black-swan.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2018-12-14",
+    "stats": {
+      "publishYear": "2007",
+      "audioHours": 15.8,
+      "pageCount": 366,
+      "wordCount": 133455,
+      "fiction": false
+    },
+    "ratings": { "connor": 75, "joe": 70, "kris": 75, "rusty": 50, "avg": 67.5 }
+  },
+  {
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "image": "./img/on-the-road.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2019-02-25",
+    "stats": {
+      "publishYear": "1957",
+      "audioHours": 11.13,
+      "pageCount": 307,
+      "wordCount": 102960,
+      "fiction": true
+    },
+    "ratings": { "connor": 85, "joe": 80, "kris": 80, "rusty": 20, "avg": 66.3 }
+  },
+  {
+    "title": "The Big Picture",
+    "author": "Sean Carroll",
+    "image": "./img/big-picture.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2019-04-03",
+    "stats": {
+      "publishYear": "2016",
+      "audioHours": 17.37,
+      "pageCount": 480,
+      "wordCount": 151235,
+      "fiction": false
+    },
+    "ratings": { "connor": 90, "joe": 89, "kris": 90, "rusty": 80, "avg": 87.3 }
+  },
+  {
+    "title": "The Uninhabitable Earth",
+    "author": "David Wallace-Wells",
+    "image": "./img/uninhabitable-earth.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2019-05-05",
+    "stats": {
+      "publishYear": "2019",
+      "audioHours": 9,
+      "pageCount": 310,
+      "wordCount": 84937,
+      "fiction": false
+    },
+    "ratings": { "connor": 87, "joe": 83, "kris": 82, "rusty": 70, "avg": 80.5 }
+  },
+  {
+    "title": "The Death of Democracy",
+    "author": "Benjamin Carter Hett",
+    "image": "./img/death-of-democracy.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2019-06-16",
+    "stats": {
+      "publishYear": "2018",
+      "audioHours": 11.42,
+      "pageCount": 304,
+      "wordCount": 107172,
+      "fiction": false
+    },
+    "ratings": { "connor": 97, "joe": 95, "kris": 93, "rusty": 83, "avg": 92 }
+  },
+  {
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "image": "./img/all-quiet.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2019-08-06",
+    "stats": {
+      "publishYear": "1929",
+      "audioHours": 6.92,
+      "pageCount": 296,
+      "wordCount": 65626,
+      "fiction": true
+    },
+    "ratings": {
+      "connor": 100,
+      "joe": 98,
+      "kris": 100,
+      "rusty": 95,
+      "avg": 98.3
+    }
+  },
+  {
+    "title": "Contact",
+    "author": "Carl Sagan",
+    "image": "./img/contact.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2019-10-06",
+    "stats": {
+      "publishYear": "1985",
+      "audioHours": 14.75,
+      "pageCount": 580,
+      "wordCount": 136444,
+      "fiction": true
+    },
+    "ratings": { "connor": 90, "joe": 90, "kris": 95, "rusty": 70, "avg": 86.3 }
+  },
+  {
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "image": "./img/selfish-gene.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2019-12-04",
+    "stats": {
+      "publishYear": "1976",
+      "audioHours": 16.2,
+      "pageCount": 360,
+      "wordCount": 149688,
+      "fiction": false
+    },
+    "ratings": {
+      "connor": 85,
+      "joe": 100,
+      "kris": 100,
+      "rusty": 85,
+      "avg": 92.5
+    }
+  },
+  {
+    "title": "The Marquis",
+    "author": "Laura Auricchio",
+    "image": "./img/marquis.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2020-01-12",
+    "stats": {
+      "publishYear": "2014",
+      "audioHours": 12.73,
+      "pageCount": 432,
+      "wordCount": 118265,
+      "fiction": false
+    },
+    "ratings": { "connor": 85, "joe": 80, "kris": 85, "rusty": 69, "avg": 79.8 }
+  },
+  {
+    "title": "Cloud Atlas",
+    "author": "David Michell",
+    "image": "./img/cloud-atlas.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2020-02-09",
+    "stats": {
+      "publishYear": "2004",
+      "audioHours": 19.8,
+      "pageCount": 509,
+      "wordCount": 164082,
+      "fiction": true
+    },
+    "ratings": {
+      "connor": 100,
+      "joe": 97,
+      "kris": 95,
+      "rusty": 85,
+      "avg": 94.3
+    }
+  },
+  {
+    "title": "The Outsiders",
+    "author": "S.E. Hinton",
+    "image": "./img/outsiders.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2020-03-04",
+    "stats": {
+      "publishYear": "1997",
+      "audioHours": 5.13,
+      "pageCount": 192,
+      "wordCount": 48513,
+      "fiction": true
+    },
+    "ratings": { "connor": 90, "joe": 85, "kris": 93, "rusty": 55, "avg": 80.8 }
+  },
+  {
+    "title": "The Gulf",
+    "author": "Jack E. Davis",
+    "image": "./img/gulf.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2020-04-28",
+    "stats": {
+      "publishYear": "2017",
+      "audioHours": 20.75,
+      "pageCount": 608,
+      "wordCount": 164736,
+      "fiction": false
+    },
+    "ratings": { "connor": 65, "joe": 83, "kris": 82, "rusty": 25, "avg": 63.8 }
+  },
+  {
+    "title": "One Minute to Midnight",
+    "author": "Michael Dobbs",
+    "image": "./img/one-minute.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2020-06-03",
+    "stats": {
+      "publishYear": "2022",
+      "audioHours": 16.4,
+      "pageCount": 384,
+      "wordCount": 148584,
+      "fiction": false
+    },
+    "ratings": { "connor": 85, "joe": 92, "kris": 82, "rusty": 65, "avg": 81 }
+  },
+  {
+    "title": "The Lions of Al-Rassan",
+    "author": "Guy Gavriel Kay",
+    "image": "./img/lions.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2020-06-24",
+    "stats": {
+      "publishYear": "1995",
+      "audioHours": 19.65,
+      "pageCount": 528,
+      "wordCount": 162702,
+      "fiction": true
+    },
+    "ratings": { "connor": 90, "joe": 89, "kris": 90, "rusty": 14, "avg": 70.8 }
+  },
+  {
+    "title": "A Time to Kill",
+    "author": "John Grisham",
+    "image": "./img/time-to-kill.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2020-07-23",
+    "stats": {
+      "publishYear": "1989",
+      "audioHours": 16.78,
+      "pageCount": 515,
+      "wordCount": 146015,
+      "fiction": true
+    },
+    "ratings": { "connor": 20, "joe": 69, "kris": 60, "rusty": 5, "avg": 38.5 }
+  },
+  {
+    "title": "The Immortal Life of Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "image": "./img/henrietta-lacks.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2020-08-08",
+    "stats": {
+      "publishYear": "2010",
+      "audioHours": 12.5,
+      "pageCount": 370,
+      "wordCount": 116250,
+      "fiction": true
+    },
+    "ratings": { "connor": 80, "joe": 90, "kris": 80, "rusty": 94, "avg": 86 }
+  },
+  {
+    "title": "Thunder at the Gates",
+    "author": "Douglas R. Egerton",
+    "image": "./img/thunder.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2020-09-15",
+    "stats": {
+      "publishYear": "2016",
+      "audioHours": 13.18,
+      "pageCount": 448,
+      "wordCount": 122605,
+      "fiction": false
+    },
+    "ratings": { "connor": 60, "joe": 88, "kris": 75, "rusty": 70, "avg": 73.3 }
+  },
+  {
+    "title": "The Haunting of Hill House",
+    "author": "Shirley Jackson",
+    "image": "./img/hill-house.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2020-10-29",
+    "stats": {
+      "publishYear": "2018",
+      "audioHours": 7.45,
+      "pageCount": 182,
+      "wordCount": 70179,
+      "fiction": true
+    },
+    "ratings": { "connor": 95, "joe": 98, "kris": 92, "rusty": 50, "avg": 83.8 }
+  },
+  {
+    "title": "How to Change your Mind",
+    "author": "Michael Pollan",
+    "image": "./img/change-your-mind.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2020-12-01",
+    "stats": {
+      "publishYear": "2018",
+      "audioHours": 13.58,
+      "pageCount": 480,
+      "wordCount": 126480,
+      "fiction": false
+    },
+    "ratings": {
+      "connor": 98,
+      "joe": 100,
+      "kris": 100,
+      "rusty": 95,
+      "avg": 98.3
+    }
+  },
+  {
+    "title": "Leviathan",
+    "author": "Eric Jay Dolin",
+    "image": "./img/leviathan.jpg",
+    "chosenBy": "joe",
+    "meetDate": "2020-12-30",
+    "stats": {
+      "publishYear": "2007",
+      "audioHours": 15.95,
+      "pageCount": 479,
+      "wordCount": 147378,
+      "fiction": false
+    },
+    "ratings": { "connor": 80, "joe": 90, "kris": 85, "rusty": 95, "avg": 87.5 }
+  },
+  {
+    "title": "Decisive",
+    "author": "Chip Heath & Dan Heath",
+    "image": "./img/decisive.jpg",
+    "chosenBy": "rusty",
+    "meetDate": "2021-01-13",
+    "stats": {
+      "publishYear": "2013",
+      "audioHours": 9.15,
+      "pageCount": 336,
+      "wordCount": 86507,
+      "fiction": false
+    },
+    "ratings": { "connor": 70, "joe": 80, "kris": 70, "rusty": 73, "avg": 73.3 }
+  },
+  {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "image": "./img/moby-dick.jpg",
+    "chosenBy": "connor",
+    "meetDate": "2021-02-12",
+    "stats": {
+      "publishYear": "1851",
+      "audioHours": 24.82,
+      "pageCount": 654,
+      "wordCount": 191928,
+      "fiction": true
+    },
+    "ratings": { "connor": 100, "joe": 90, "kris": 90, "rusty": 96, "avg": 94 }
+  },
+  {
+    "title": "Into Thin Air",
+    "author": "Jon Krakauer",
+    "image": "./img/into-thin-air.jpg",
+    "chosenBy": "kris",
+    "meetDate": "2021-03-04",
+    "stats": {
+      "publishYear": "1997",
+      "audioHours": 9.13,
+      "pageCount": 368,
+      "wordCount": 56520,
+      "fiction": false
+    },
+    "ratings": { "connor": 95, "joe": 95, "kris": 95, "rusty": 77, "avg": 90.5 }
+  }
+]
