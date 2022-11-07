@@ -2,13 +2,13 @@ import React from "react";
 import BookCard from "./BookCard";
 
 const BookList = (props) => {
-  const { books, openModal } = props;
+  const { openModal, books } = props;
   return (
-    <section className="book-list">
-      {books.map((book, i) => {
-        return <BookCard key={i} openModal={openModal} book={book} />;
+    <div className="book-list">
+      {books.map((book) => {
+        return <BookCard key={book.id} openModal={openModal} book={book} />;
       })}
-    </section>
+    </div>
   );
 };
 
