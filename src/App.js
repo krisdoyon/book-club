@@ -1,13 +1,19 @@
 import { useState } from "react";
-import { users } from "./assets/users";
-import books from "./assets/books.json";
-import BookList from "./components/BookList";
+// DATA
+import { members } from "./assets/members";
+// COMPONENTS
 import Modal from "./components/Modal";
+import Header from "./components/Header";
+import Books from "./components/Books";
+import Stats from "./components/Stats";
+import Footer from "./components/Footer";
+// SASS
 import "./sass/main.scss";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalBook, setModalBook] = useState({});
+  const [page, setPage] = useState("books");
 
   const openModal = (book) => {
     setIsModalOpen(true);
@@ -21,10 +27,12 @@ function App() {
   return (
     <>
       {isModalOpen && <Modal book={modalBook} closeModal={closeModal} />}
-      <main className="container">
-        <h1>Book Club</h1>
-        <BookList openModal={openModal} books={books} />
+      <Header page={page} setPage={setPage} />
+      <main>
+        {page === "books" && <Books openModal={openModal} />}
+        {page === "stats" && <Stats members={members} />}
       </main>
+      <Footer />
     </>
   );
 }
