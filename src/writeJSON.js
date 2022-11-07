@@ -16,6 +16,7 @@ function writeJSON() {
       book[`${header}`] = items[i];
     });
     return {
+      id: book.id,
       title: book.title,
       author: book.author,
       image: `${book.image}.jpg`,
@@ -33,7 +34,7 @@ function writeJSON() {
         joe: +book.joe || null,
         kris: +book.kris || null,
         rusty: +book.rusty || null,
-        avg: +book.avg || null,
+        avg: +book.avg,
       },
     };
   });
