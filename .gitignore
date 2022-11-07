@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 planning.txt
+
+src/assets/book-club.csv
