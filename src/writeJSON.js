@@ -34,7 +34,7 @@ function writeJSON() {
         joe: +book.joe || null,
         kris: +book.kris || null,
         rusty: +book.rusty || null,
-        avg: +book.avg,
+        avg: +book.avg || 0,
       },
     };
   });
