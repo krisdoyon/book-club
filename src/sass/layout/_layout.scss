@@ -14,7 +14,7 @@ h1 {
   &::before {
     content: "";
     position: absolute;
-    height: 0.8rem;
+    height: 0.6rem;
     background-color: var(--color-primary);
     width: 100%;
     bottom: -0.6rem;
@@ -32,5 +32,7 @@ h1 {
     gap: 6rem;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 }
