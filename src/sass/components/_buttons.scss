@@ -5,7 +5,7 @@
   border-radius: 3px;
   transition: all 0.3s;
   background-color: transparent;
-  
+
   &--blue {
     background-color: var(--color-primary);
     color: var(--color-grey-light-1);
@@ -15,5 +15,34 @@
       background-color: var(--color-primary-lighten);
       transform: translateY(-0.2rem);
     }
+  }
+}
+
+.btn-view {
+  border: 1px solid var(--color-primary);
+  padding: 0rem 2rem;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: none;
+
+  &--active {
+    background-color: var(--color-primary);
+
+    span {
+      color: var(--color-grey-light-1);
+    }
+    font-weight: 500;
+
+    .btn-view__icon {
+      fill: var(--color-grey-light-1);
+    }
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: var(--color-primary);
   }
 }
