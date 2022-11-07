@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRegCalendarAlt, FaRegUser } from "react-icons/fa";
 
 const BookCard = (props) => {
   const { title, author, image, chosenBy, ratings, meetDate } = props.book;
@@ -17,8 +18,12 @@ const BookCard = (props) => {
           <h3 className="book-card__author">by {author}</h3>
         </header>
         <div className="book-card__details">
-          <p className="book-card__chosen">Chosen by: {chosenBy}</p>
-          <p>Meeting Date: {meetDate}</p>
+          <p className="book-card__detail">
+            <FaRegUser className="book-card__icon" /> <span>{chosenBy}</span>
+          </p>
+          <p className="book-card__detail">
+            <FaRegCalendarAlt className="book-card__icon" /> {meetDate}
+          </p>
         </div>
         <button className="btn btn--blue" onClick={handleButtonClick}>
           More info
