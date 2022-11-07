@@ -1,11 +1,12 @@
 import { useState } from "react";
 // DATA
 import { members } from "./assets/members";
+import bookData from "./assets/books.json";
 // COMPONENTS
 import Modal from "./components/Modal";
 import Header from "./components/Header";
-import Books from "./components/Books";
-import Stats from "./components/Stats";
+import Books from "./pages/books/Books";
+import Stats from "./pages/stats/Stats";
 import Footer from "./components/Footer";
 // SASS
 import "./sass/main.scss";
@@ -29,8 +30,10 @@ function App() {
       {isModalOpen && <Modal book={modalBook} closeModal={closeModal} />}
       <Header page={page} setPage={setPage} />
       <main>
-        {page === "books" && <Books openModal={openModal} />}
-        {page === "stats" && <Stats members={members} />}
+        {page === "books" && (
+          <Books bookData={bookData} openModal={openModal} />
+        )}
+        {page === "stats" && <Stats bookData={bookData} members={members} />}
       </main>
       <Footer />
     </>
