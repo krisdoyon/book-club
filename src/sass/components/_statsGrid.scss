@@ -1,11 +1,11 @@
 .stats-grid {
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   background-color: var(--color-primary);
   gap: 0.2rem;
   span {
     background-color: var(--color-secondary);
-    // padding: 1rem 0 1rem 0;
   }
 
   &__label {
@@ -14,13 +14,13 @@
     font-weight: 600;
     font-size: 1.8rem;
     justify-content: flex-end;
-    padding: 1rem 3rem 1rem 0;
+    padding: 1rem 2rem;
   }
 
   &__value {
     display: flex;
     font-size: 4rem;
     font-weight: 300;
-    padding: 1rem 0 1rem 3rem;
+    padding: 1rem 2rem 1rem 2.4rem;
   }
 }
