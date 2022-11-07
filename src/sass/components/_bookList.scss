@@ -4,3 +4,30 @@
   grid-auto-rows: max-content;
   gap: 4rem;
 }
+
+.books-select-wrapper {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+#books-sort-select {
+  align-self: center;
+  width: 20vw;
+  min-width: 30rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+
+  option:hover {
+    background-color: purple;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
