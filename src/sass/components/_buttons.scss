@@ -2,12 +2,14 @@
   border: none;
   font-family: inherit;
   cursor: pointer;
-  padding: 1rem 2rem;
   border-radius: 3px;
   transition: all 0.3s;
+  background-color: transparent;
+  
   &--blue {
     background-color: var(--color-primary);
     color: var(--color-grey-light-1);
+    padding: 1rem 2rem;
 
     &:hover {
       background-color: var(--color-primary-lighten);
