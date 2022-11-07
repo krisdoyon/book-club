@@ -2,7 +2,7 @@ import React from "react";
 import {
   FaMusic,
   FaBookOpen,
-  FaRegCalendar,
+  FaRegCalendarAlt,
   FaSlackHash,
 } from "react-icons/fa";
 
@@ -24,7 +24,7 @@ const Modal = (props) => {
           </header>
           <div className="modal__info">
             <p className="modal__stat">
-              <FaRegCalendar className="modal__icon" />
+              <FaRegCalendarAlt className="modal__icon" />
               <span>
                 Published in <strong>{publishYear}</strong>
               </span>
