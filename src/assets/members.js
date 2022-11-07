@@ -26,7 +26,7 @@ class Member {
     const filteredBooks = books.filter((book) => book.chosenBy === this.name);
     const avgRatings = filteredBooks
       .map((book) => book.ratings.avg)
-      .filter((avg) => avg !== null);
+      .filter((avg) => avg !== 0);
     const low = Math.min(...avgRatings);
     const avg =
       avgRatings.reduce((acc, cur) => acc + cur, 0) / avgRatings.length;
