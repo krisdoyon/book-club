@@ -41,6 +41,10 @@
     object-fit: contain;
     width: max-content;
     align-self: center;
+
+    @include respond(800) {
+      height: 30rem;
+    }
   }
 
   &__body {
