@@ -1,3 +1,5 @@
+@use "../abstracts/mixins" as *;
+
 .book-card {
   display: flex;
   flex-direction: column;
@@ -7,6 +9,10 @@
   padding: 2rem;
   gap: 2rem;
   position: relative;
+
+  @include respond(600) {
+    max-width: 35rem;
+  }
 
   &__rating {
     position: absolute;
