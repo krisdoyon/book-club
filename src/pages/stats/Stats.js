@@ -24,11 +24,12 @@ const Stats = (props) => {
         <h1>Stats</h1>
       </header>
       <div className="container__body">
-        <div className="books-select-wrapper">
-          <label htmlFor="books-sort-select">Filter by year:</label>
+        <div className="select-wrapper">
+          <label htmlFor="stats-sort-select">Filter by year:</label>
           <select
+            className="select"
             defaultValue="date-descending"
-            id="books-sort-select"
+            id="stats-sort-select"
             onChange={sortChangeHandler}
           >
             <option value="all">All years</option>

@@ -26,12 +26,14 @@
 
 .btn-view {
   border: 1px solid var(--color-primary);
-  padding: 0rem 2rem;
+  padding: 1rem 2rem;
   font-size: 1.4rem;
   display: flex;
   align-items: center;
   gap: 1rem;
   transition: none;
+  height: max-content;
+  flex: 1;
 
   &--active {
     background-color: var(--color-primary);

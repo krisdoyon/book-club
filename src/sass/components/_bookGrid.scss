@@ -15,7 +15,7 @@
   }
 
   @include respond(600) {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(35rem, 1fr);
   }
 }
 
@@ -25,7 +25,7 @@
 
   @include respond(600) {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr max-content;
     row-gap: 3rem;
     justify-items: center;
   }
@@ -33,13 +33,22 @@
 
 .books-buttons-wrapper {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
+  justify-content: stretch;
+
+  @include respond(600) {
+    flex-direction: row;
+    height: 4rem;
+    align-content: stretch;
+  }
 }
 
-.books-select-wrapper {
+.select-wrapper {
   align-self: center;
-  display: flex;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-content: center;
   gap: 2rem;
   font-size: 2rem;
 
@@ -48,11 +57,11 @@
   }
 }
 
-#books-sort-select {
+.select {
   align-self: center;
   background-color: var(--color-grey-light-1);
-  width: 20vw;
-  min-width: 30rem;
+  width: 15vw;
+  min-width: 20rem;
   font-family: inherit;
   font-size: 1.6rem;
   padding: 1rem;
