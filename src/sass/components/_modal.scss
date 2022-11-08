@@ -16,6 +16,7 @@
   width: 60vw;
   max-width: 100rem;
   min-width: 85rem;
+  max-height: 90vh;
   height: max-content;
   z-index: 100;
   border-radius: var(--border-radius);
@@ -24,6 +25,7 @@
   transform: translate(-50%, -50%);
   padding: 3rem;
   gap: 4rem;
+  overflow-y: auto;
 
   @include respond(800) {
     flex-direction: column;
