@@ -1,12 +1,16 @@
+@use "../abstracts/mixins" as *;
+
 .book-table {
   border-collapse: collapse;
-  border: 1px solid var(--color-primary);
+  min-width: 130rem;
 
   thead {
     background-color: var(--color-primary);
     color: var(--color-grey-light-1);
     font-size: 1.6rem;
     font-weight: 500;
+    position: sticky;
+    top: 0;
   }
 
   th {
@@ -29,5 +33,15 @@
   td {
     padding: 1rem;
     // width: min-content;
+  }
+}
+
+.book-table__wrapper {
+  width: 100%;
+  overflow-y: auto;
+  border: 1px solid var(--color-primary);
+
+  @include respond(1000) {
+    max-height: 80vh;
   }
 }

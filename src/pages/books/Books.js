@@ -35,36 +35,40 @@ const Books = (props) => {
     <section className="container">
       <h1>Books</h1>
       <div className="container__body">
-        <div className="books-select-wrapper">
-          <label htmlFor="books-sort-select">Sort by:</label>
-          <select
-            defaultValue="date-descending"
-            id="books-sort-select"
-            onChange={sortChangeHandler}
-          >
-            <option value="date-descending">Date (descending)</option>
-            <option value="date-ascending">Date (ascending)</option>
-            <option value="rating-descending">Rating (high to low)</option>
-            <option value="rating-ascending">Rating (low to high)</option>
-          </select>
-          <button
-            className={`btn btn-view ${
-              view === "grid" ? "btn-view--active" : ""
-            }`}
-            onClick={() => setView("grid")}
-          >
-            <MdGridOn className="btn-view__icon" />
-            <span>Grid</span>
-          </button>
-          <button
-            className={`btn btn-view ${
-              view === "table" ? "btn-view--active" : ""
-            }`}
-            onClick={() => setView("table")}
-          >
-            <FaRegListAlt className="btn-view__icon" />
-            <span>Table</span>
-          </button>
+        <div className="books-controls-wrapper">
+          <div className="books-select-wrapper">
+            <label htmlFor="books-sort-select">Sort by:</label>
+            <select
+              defaultValue="date-descending"
+              id="books-sort-select"
+              onChange={sortChangeHandler}
+            >
+              <option value="date-descending">Date (descending)</option>
+              <option value="date-ascending">Date (ascending)</option>
+              <option value="rating-descending">Rating (high to low)</option>
+              <option value="rating-ascending">Rating (low to high)</option>
+            </select>
+          </div>
+          <div className="books-buttons-wrapper">
+            <button
+              className={`btn btn-view ${
+                view === "grid" ? "btn-view--active" : ""
+              }`}
+              onClick={() => setView("grid")}
+            >
+              <MdGridOn className="btn-view__icon" />
+              <span>Grid</span>
+            </button>
+            <button
+              className={`btn btn-view ${
+                view === "table" ? "btn-view--active" : ""
+              }`}
+              onClick={() => setView("table")}
+            >
+              <FaRegListAlt className="btn-view__icon" />
+              <span>Table</span>
+            </button>
+          </div>
         </div>
         {view === "table" && <BookTable openModal={openModal} books={books} />}
         {view === "grid" && <BookGrid openModal={openModal} books={books} />}
