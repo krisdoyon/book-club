@@ -1,32 +1,31 @@
-import React from "react";
+// ROUTER
+import { NavLink } from "react-router-dom";
 
-const Header = (props) => {
-  const { page, setPage } = props;
-
+const Header = () => {
   return (
     <header className="header">
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__list-item">
-            <button
-              className={`btn nav__btn ${
-                page === "books" ? `nav__btn--active` : ""
-              }`}
-              onClick={() => setPage("books")}
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                "btn nav__btn" + (isActive ? " nav__btn--active" : "")
+              }
             >
               Books
-            </button>
+            </NavLink>
           </li>
 
           <li className="nav__list-item">
-            <button
-              className={`btn nav__btn ${
-                page === "stats" ? `nav__btn--active` : ""
-              }`}
-              onClick={() => setPage("stats")}
+            <NavLink
+              to="/stats"
+              className={({ isActive }) =>
+                "btn nav__btn" + (isActive ? " nav__btn--active" : "")
+              }
             >
               Stats
-            </button>
+            </NavLink>
           </li>
         </ul>
       </nav>
