@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { FaRegListAlt } from "react-icons/fa";
 import { MdGridOn } from "react-icons/md";
+import { useGlobalContext } from "../../context/context";
 import BookGrid from "./BookGrid";
 import BookTable from "./BookTable";
 
-const Books = (props) => {
-  const { openModal, bookData } = props;
+const Books = () => {
+  const { allBooks } = useGlobalContext();
   const [view, setView] = useState("grid");
   const [books, setBooks] = useState([]);
-
   const [filter, setFilter] = useState("all");
   const [sort, setSort] = useState("date-descending");
 
   useEffect(() => {
     let books;
     if (filter === "all") {
-      books = bookData;
+      books = allBooks;
     } else {
-      books = bookData.filter((book) => book.chosenBy === filter);
+      books = allBooks.filter((book) => book.chosenBy === filter);
     }
     if (sort === "date-descending") {
       setBooks(
@@ -35,11 +35,11 @@ const Books = (props) => {
     if (sort === "rating-ascending") {
       setBooks([...books].sort((a, b) => a.ratings.avg - b.ratings.avg));
     }
-  }, [bookData, filter, sort]);
+  }, [allBooks, filter, sort]);
 
   return (
     <section className="container">
-      <h1>Books</h1>
+      <h1 className="heading-primary">Books</h1>
       <div className="container__body">
         <div className="books-controls-wrapper">
           <div className="select-wrapper">
@@ -90,8 +90,8 @@ const Books = (props) => {
             </button>
           </div>
         </div>
-        {view === "table" && <BookTable openModal={openModal} books={books} />}
-        {view === "grid" && <BookGrid openModal={openModal} books={books} />}
+        {view === "table" && <BookTable books={books} />}
+        {view === "grid" && <BookGrid books={books} />}
       </div>
     </section>
   );

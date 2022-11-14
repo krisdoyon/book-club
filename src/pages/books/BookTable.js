@@ -1,7 +1,6 @@
 import React from "react";
 
-const BookTable = (props) => {
-  const { books } = props;
+const BookTable = ({ books }) => {
   return (
     <div className="book-table__wrapper">
       <table className="book-table" style={{ width: "100%" }}>

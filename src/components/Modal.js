@@ -1,19 +1,28 @@
-import React from "react";
+// ICONS
 import {
   FaMusic,
   FaBookOpen,
   FaRegCalendarAlt,
   FaSlackHash,
 } from "react-icons/fa";
+// CONTEXT
+import { useGlobalContext } from "../context/context";
 
-const Modal = (props) => {
-  const { title, author, ratings, image } = props.book;
-  const { audioHours, wordCount, pageCount, publishYear } = props.book.stats;
+const Modal = () => {
+  const { modalBook, closeModal } = useGlobalContext();
+  const {
+    title,
+    author,
+    ratings,
+    image,
+    stats: { audioHours, wordCount, pageCount, publishYear },
+  } = modalBook;
+
   return (
     <>
-      <div class="overlay" onClick={props.closeModal}></div>
+      <div className="overlay" onClick={closeModal}></div>
       <div className="modal">
-        <button className="btn modal__btn-close" onClick={props.closeModal}>
+        <button className="btn modal__btn-close" onClick={closeModal}>
           &times;
         </button>
         <img src={`./img/${image}`} alt={title} />

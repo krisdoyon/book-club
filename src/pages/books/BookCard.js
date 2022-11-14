@@ -1,13 +1,18 @@
 import React from "react";
 import { FaRegCalendarAlt, FaRegUser } from "react-icons/fa";
+import { useGlobalContext } from "../../context/context";
 
-const BookCard = (props) => {
-  const { title, author, image, chosenBy, ratings, meetDate } = props.book;
-  const { openModal } = props;
+const BookCard = ({
+  id,
+  title,
+  author,
+  image,
+  chosenBy,
+  ratings,
+  meetDate,
+}) => {
+  const { openModal } = useGlobalContext();
 
-  const handleButtonClick = () => {
-    openModal(props.book);
-  };
   return (
     <article className="book-card">
       <div className="book-card__rating">{ratings.avg || "n/a"}</div>
@@ -25,7 +30,7 @@ const BookCard = (props) => {
             <FaRegCalendarAlt className="book-card__icon" /> {meetDate}
           </p>
         </div>
-        <button className="btn btn--blue" onClick={handleButtonClick}>
+        <button className="btn btn--blue" onClick={() => openModal(id)}>
           More info
         </button>
       </div>
