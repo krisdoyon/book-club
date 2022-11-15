@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Slide from "./Slide";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useGlobalContext } from "../../context/context";
 
-const Slider = (props) => {
+const Slider = () => {
   const [index, setIndex] = useState(0);
-  const { members } = props;
+  const { members } = useGlobalContext();
 
   useEffect(() => {
     if (index < 0) {
