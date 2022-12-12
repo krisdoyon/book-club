@@ -745,7 +745,7 @@
     "author": "Dava Sobel",
     "image": "longitude.jpg",
     "chosenBy": "rusty",
-    "meetDate": "02/28/2022",
+    "meetDate": "03/13/2022",
     "stats": {
       "publishYear": "1995",
       "audioHours": 4.33,
@@ -754,11 +754,11 @@
       "fiction": false
     },
     "ratings": {
-      "connor": null,
-      "joe": null,
-      "kris": null,
-      "rusty": null,
-      "avg": 0
+      "connor": 88,
+      "joe": 90,
+      "kris": 93,
+      "rusty": 69,
+      "avg": 85
     }
   },
   {
