@@ -708,7 +708,6 @@
     "image": "project-hail-mary.jpg",
     "chosenBy": "kris",
     "meetDate": "01/01/2022",
-
     "stats": {
       "publishYear": "2021",
       "audioHours": 16.17,
@@ -754,13 +753,7 @@
       "wordCount": 40820,
       "fiction": false
     },
-    "ratings": {
-      "connor": 88,
-      "joe": 90,
-      "kris": 93,
-      "rusty": 69,
-      "avg": 85
-    }
+    "ratings": { "connor": 88, "joe": 90, "kris": 93, "rusty": 69, "avg": 85 }
   },
   {
     "id": "43",
@@ -888,12 +881,22 @@
       "wordCount": 85879,
       "fiction": false
     },
-    "ratings": {
-      "connor": 9,
-      "joe": 10,
-      "kris": 20,
-      "rusty": 5,
-      "avg": 11
-    }
+    "ratings": { "connor": 9, "joe": 10, "kris": 20, "rusty": 5, "avg": 11 }
+  },
+  {
+    "id": "51",
+    "title": "The Storm Before the Storm",
+    "author": "Mike Duncan",
+    "image": "storm.jpg",
+    "chosenBy": "connor",
+    "meetDate": "01/09/2023",
+    "stats": {
+      "publishYear": "2017",
+      "audioHours": 10.81,
+      "pageCount": 352,
+      "wordCount": 95940,
+      "fiction": false
+    },
+    "ratings": { "connor": 70, "joe": 80, "kris": 72, "rusty": 83, "avg": 76.3 }
   }
 ]
