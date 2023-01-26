@@ -9,15 +9,20 @@ import { AppProvider } from "./context/context";
 import ScrollToTop from "./helpers/ScrollToTop";
 import App from "./App";
 
+import { ApiProvider } from "@reduxjs/toolkit/dist/query/react";
+import { apiSlice } from "./features/apiSlice";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
     <Router>
-      <AppProvider>
-        <ScrollToTop />
-        <App />
-      </AppProvider>
+      <ApiProvider api={apiSlice}>
+        <AppProvider>
+          <ScrollToTop />
+          <App />
+        </AppProvider>
+      </ApiProvider>
     </Router>
   </React.StrictMode>
 );
