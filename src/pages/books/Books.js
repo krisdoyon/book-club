@@ -1,41 +1,37 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaRegListAlt } from "react-icons/fa";
 import { MdGridOn } from "react-icons/md";
-import { useGlobalContext } from "../../context/context";
+import { useGetBooksQuery } from "../../features/apiSlice";
 import BookGrid from "./BookGrid";
 import BookTable from "./BookTable";
 
+const filterAndSortBooks = (books, filter, sort) => {
+  let newBooks = [...books];
+  if (filter !== "all") {
+    newBooks = books.filter((book) => book.chosenBy === filter);
+  }
+  if (sort === "date-descending") {
+    return newBooks.sort((a, b) => new Date(b.meetDate) - new Date(a.meetDate));
+  }
+  if (sort === "date-ascending") {
+    return newBooks.sort((a, b) => new Date(a.meetDate) - new Date(b.meetDate));
+  }
+  if (sort === "rating-descending") {
+    return newBooks.sort((a, b) => b.ratings.avg - a.ratings.avg);
+  }
+  if (sort === "rating-ascending") {
+    return newBooks.sort((a, b) => a.ratings.avg - b.ratings.avg);
+  }
+  return newBooks;
+};
+
 const Books = () => {
-  const { allBooks } = useGlobalContext();
+  const { data: allBooks = [] } = useGetBooksQuery();
   const [view, setView] = useState("grid");
-  const [books, setBooks] = useState([]);
   const [filter, setFilter] = useState("all");
   const [sort, setSort] = useState("date-descending");
 
-  useEffect(() => {
-    let books;
-    if (filter === "all") {
-      books = allBooks;
-    } else {
-      books = allBooks.filter((book) => book.chosenBy === filter);
-    }
-    if (sort === "date-descending") {
-      setBooks(
-        [...books].sort((a, b) => new Date(b.meetDate) - new Date(a.meetDate))
-      );
-    }
-    if (sort === "date-ascending") {
-      setBooks(
-        [...books].sort((a, b) => new Date(a.meetDate) - new Date(b.meetDate))
-      );
-    }
-    if (sort === "rating-descending") {
-      setBooks([...books].sort((a, b) => b.ratings.avg - a.ratings.avg));
-    }
-    if (sort === "rating-ascending") {
-      setBooks([...books].sort((a, b) => a.ratings.avg - b.ratings.avg));
-    }
-  }, [allBooks, filter, sort]);
+  const displayBooks = filterAndSortBooks(allBooks, filter, sort);
 
   return (
     <section className="container">
@@ -90,8 +86,8 @@ const Books = () => {
             </button>
           </div>
         </div>
-        {view === "table" && <BookTable books={books} />}
-        {view === "grid" && <BookGrid books={books} />}
+        {view === "table" && <BookTable books={displayBooks} />}
+        {view === "grid" && <BookGrid books={displayBooks} />}
       </div>
     </section>
   );

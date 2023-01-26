@@ -1,65 +1,36 @@
-import React, { useReducer } from "react";
-import { useGlobalContext } from "../../context/context";
+import React, { useState } from "react";
 import RatingsGraph from "./RatingsGraph";
 import Slider from "./Slider";
 import StatsGrid from "./StatsGrid";
-import allBooks from "../../assets/books.json";
+import { useGetBooksQuery } from "../../features/apiSlice";
 
-const filterBooks = (filters) => {
-  const newBooks = allBooks
-    .filter((book) => {
-      if (filters.year === "all") {
-        return true;
-      } else {
-        return book.meetDate.slice(-4) === filters.year;
-      }
-    })
-    .filter((book) => {
-      if (filters.fiction === "all") {
-        return true;
-      } else {
-        return book.stats.fiction.toString() === filters.fiction;
-      }
-    })
-    .filter((book) => {
-      if (filters.choice === "all") {
-        return true;
-      } else {
-        return book.chosenBy === filters.choice;
-      }
-    });
+const filterBooks = (books, filters) => {
+  let newBooks = [...books];
+  if (filters.year !== "all") {
+    newBooks = newBooks.filter(
+      (book) => book.meetDate.slice(-4) === filters.year
+    );
+  }
+  if (filters.fiction !== "all") {
+    newBooks = newBooks.filter(
+      (book) => book.stats.fiction.toString() === filters.fiction
+    );
+  }
+  if (filters.choice !== "all") {
+    newBooks = newBooks.filter((book) => book.chosenBy === filters.choice);
+  }
   return newBooks;
 };
 
-const statsReducer = (state, action) => {
-  if (action.type === "SELECT_CHANGE") {
-    const { newFilter, newFilterType } = action.payload;
-    const newFilters = {
-      year: newFilterType === "year" ? newFilter : state.filters.year,
-      fiction: newFilterType === "fiction" ? newFilter : state.filters.fiction,
-      choice: newFilterType === "choice" ? newFilter : state.filters.choice,
-    };
-    const newBooks = filterBooks(newFilters);
-
-    return {
-      ...state,
-      filters: newFilters,
-      books: newBooks,
-    };
-  }
-};
-
 const Stats = () => {
-  const { allBooks } = useGlobalContext();
-
-  const [state, dispatch] = useReducer(statsReducer, {
-    books: allBooks,
-    filters: {
-      year: "all",
-      fiction: "all",
-      choice: "all",
-    },
+  const { data: allBooks = [] } = useGetBooksQuery();
+  const [filters, setFilters] = useState({
+    year: "all",
+    fiction: "all",
+    choice: "all",
   });
+
+  const currentBooks = filterBooks(allBooks, filters);
 
   return (
     <section className="container">
@@ -74,10 +45,10 @@ const Stats = () => {
             defaultValue="all"
             id="stats-year-select"
             onChange={(e) =>
-              dispatch({
-                type: "SELECT_CHANGE",
-                payload: { newFilterType: "year", newFilter: e.target.value },
-              })
+              setFilters((prevFilters) => ({
+                ...prevFilters,
+                year: e.target.value,
+              }))
             }
           >
             <option value="all">All</option>
@@ -95,13 +66,10 @@ const Stats = () => {
             defaultValue="all"
             id="stats-fiction-select"
             onChange={(e) =>
-              dispatch({
-                type: "SELECT_CHANGE",
-                payload: {
-                  newFilterType: "fiction",
-                  newFilter: e.target.value,
-                },
-              })
+              setFilters((prevFilters) => ({
+                ...prevFilters,
+                fiction: e.target.value,
+              }))
             }
           >
             <option value="all">All</option>
@@ -114,10 +82,10 @@ const Stats = () => {
             defaultValue="all"
             id="stats-choice-select"
             onChange={(e) =>
-              dispatch({
-                type: "SELECT_CHANGE",
-                payload: { newFilterType: "choice", newFilter: e.target.value },
-              })
+              setFilters((prevFilters) => ({
+                ...prevFilters,
+                choice: e.target.value,
+              }))
             }
           >
             <option value="all">All</option>
@@ -127,8 +95,8 @@ const Stats = () => {
             <option value="rusty">Rusty's picks</option>
           </select>
         </div>
-        <StatsGrid books={state.books} />
-        <RatingsGraph books={state.books} yearFilter={state.filters.year} />
+        <StatsGrid books={currentBooks} />
+        <RatingsGraph books={currentBooks} yearFilter={filters.year} />
         <Slider />
       </div>
     </section>
