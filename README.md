@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/img/logo-background.png" alt="Havest Seed logo" style="height:150px">
+  <img src="./public/img/fav-icon.png" alt="Havest Seed logo" style="height:150px">
 </p>
 
 **A website for my book club to track books read, statistics and ratings over time built using React.**
