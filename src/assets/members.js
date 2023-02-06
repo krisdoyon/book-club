@@ -56,4 +56,4 @@ const kris = new Member("kris");
 const rusty = new Member("rusty");
 const members = [connor, joe, kris, rusty];
 
-export { members };
+export { Member, members };

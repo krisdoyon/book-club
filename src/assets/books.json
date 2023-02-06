@@ -898,5 +898,21 @@
       "fiction": false
     },
     "ratings": { "connor": 70, "joe": 80, "kris": 72, "rusty": 83, "avg": 76.3 }
+  },
+  {
+    "id": "52",
+    "title": "Sea of Tranquility",
+    "author": "Emily St. John Mandel",
+    "image": "sea-of-tranquility.jpg",
+    "chosenBy": "kris",
+    "meetDate": "02/05/2023",
+    "stats": {
+      "publishYear": "2022",
+      "audioHours": 5.78,
+      "pageCount": 272,
+      "wordCount": 54479,
+      "fiction": true
+    },
+    "ratings": { "connor": 60, "joe": 72, "kris": 0, "rusty": 37, "avg": 59.8 }
   }
 ]
