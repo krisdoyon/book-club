@@ -32,16 +32,16 @@ const BookTable = ({ books }) => {
                 {book.chosenBy.slice(0, 1).toUpperCase() +
                   book.chosenBy.slice(1)}
               </td>
-              <td>{book.meetDate}</td>
+              <td>{book.meetDate || "TBD"}</td>
               <td>{book.ratings.avg || "n/a"}</td>
               <td>{book.ratings.connor || "n/a"}</td>
               <td>{book.ratings.joe || "n/a"}</td>
               <td>{book.ratings.kris || "n/a"}</td>
               <td>{book.ratings.rusty || "n/a"}</td>
-              <td>{book.stats.pageCount.toLocaleString()}</td>
-              <td>{book.stats.wordCount.toLocaleString()}</td>
-              <td>{Math.round(book.stats.audioHours * 10) / 10}</td>
-              <td>{book.stats.publishYear}</td>
+              <td>{book.stats.pageCount?.toLocaleString() || "n/a"}</td>
+              <td>{book.stats.wordCount?.toLocaleString() || "n/a"}</td>
+              <td>{Math.round(book.stats.audioHours * 10) / 10 || "n/a"}</td>
+              <td>{book.stats.publishYear || "n/a"}</td>
             </tr>
           ))}
         </tbody>

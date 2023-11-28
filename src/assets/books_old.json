@@ -902,163 +902,17 @@
   {
     "id": "52",
     "title": "Sea of Tranquility",
-    "author": "Emily St. Mandel",
-    "image": "59.8.jpg",
+    "author": "Emily St. John Mandel",
+    "image": "sea-of-tranquility.jpg",
     "chosenBy": "kris",
-    "meetDate": "1/10/2023",
+    "meetDate": "02/05/2023",
     "stats": {
       "publishYear": "2022",
       "audioHours": 5.78,
       "pageCount": 272,
-      "wordCount": null,
-      "fiction": false
-    },
-    "ratings": { "connor": null, "joe": 70, "kris": 60, "rusty": 72, "avg": 37 }
-  },
-  {
-    "id": "53",
-    "title": "Fuzz",
-    "author": "Mary Roach",
-    "image": "fuzz.jpg",
-    "chosenBy": "joe",
-    "meetDate": "03/10/2023",
-    "stats": {
-      "publishYear": "2021",
-      "audioHours": 9.28,
-      "pageCount": 320,
-      "wordCount": 87449,
-      "fiction": false
-    },
-    "ratings": { "connor": 75, "joe": 88, "kris": 87, "rusty": 93, "avg": 85.8 }
-  },
-  {
-    "id": "54",
-    "title": "Brief Encounters with Che Guevara",
-    "author": "Ben Fountain",
-    "image": "brief-encounters.jpg",
-    "chosenBy": "rusty",
-    "meetDate": "04/19/2023",
-    "stats": {
-      "publishYear": "2007",
-      "audioHours": 7.62,
-      "pageCount": 229,
-      "wordCount": 71906,
+      "wordCount": 54479,
       "fiction": true
     },
-    "ratings": { "connor": 95, "joe": 90, "kris": 87, "rusty": 94, "avg": 91.5 }
-  },
-  {
-    "id": "55",
-    "title": "Babel",
-    "author": "R. F. Kuang",
-    "image": "babel.jpg",
-    "chosenBy": "connor",
-    "meetDate": "04/20/2023",
-    "stats": {
-      "publishYear": "2022",
-      "audioHours": 21.77,
-      "pageCount": 560,
-      "wordCount": 169728,
-      "fiction": true
-    },
-    "ratings": {
-      "connor": null,
-      "joe": null,
-      "kris": null,
-      "rusty": null,
-      "avg": 0
-    }
-  },
-  {
-    "id": "56",
-    "title": "Superintelligence",
-    "author": "Nick Bostrom",
-    "image": "superintelligence.jpg",
-    "chosenBy": "kris",
-    "meetDate": "04/21/2023",
-    "stats": {
-      "publishYear": "2014",
-      "audioHours": 14.28,
-      "pageCount": 352,
-      "wordCount": 162656,
-      "fiction": false
-    },
-    "ratings": {
-      "connor": null,
-      "joe": null,
-      "kris": null,
-      "rusty": null,
-      "avg": 0
-    }
-  },
-  {
-    "id": "57",
-    "title": "Empire of Ice and Stone",
-    "author": "Buddy Levy",
-    "image": "empire.jpg",
-    "chosenBy": "joe",
-    "meetDate": "09/22/2023",
-    "stats": {
-      "publishYear": "2022",
-      "audioHours": 14.67,
-      "pageCount": 432,
-      "wordCount": 0,
-      "fiction": false
-    },
-    "ratings": { "connor": 80, "joe": 90, "kris": 72, "rusty": 47, "avg": 72.3 }
-  },
-  {
-    "id": "58",
-    "title": "Suddenly the Cider Didn't Taste So Good",
-    "author": "John Ford",
-    "image": "suddenly-cider.jpg",
-    "chosenBy": "rusty",
-    "meetDate": "9/23/2023",
-    "stats": {
-      "publishYear": "2016",
-      "audioHours": 5.65,
-      "pageCount": 200,
-      "wordCount": 51666,
-      "fiction": false
-    },
-    "ratings": { "connor": 40, "joe": 65, "kris": 30, "rusty": 12, "avg": 36.8 }
-  },
-  {
-    "id": "59",
-    "title": "Child of God",
-    "author": "Cormac McCarthy",
-    "image": "child-of-god.jpg",
-    "chosenBy": "connor",
-    "meetDate": "11/27/2023",
-    "stats": {
-      "publishYear": "1973",
-      "audioHours": 3.68,
-      "pageCount": 197,
-      "wordCount": 63040,
-      "fiction": true
-    },
-    "ratings": { "connor": 94, "joe": 90, "kris": 87, "rusty": 87, "avg": 89.5 }
-  },
-  {
-    "id": "60",
-    "title": "Gunfight",
-    "author": "Adam Winkler",
-    "image": "gunfight.jpg",
-    "chosenBy": "kris",
-    "meetDate": "",
-    "stats": {
-      "publishYear": "",
-      "audioHours": 0,
-      "pageCount": 0,
-      "wordCount": 0,
-      "fiction": false
-    },
-    "ratings": {
-      "connor": null,
-      "joe": null,
-      "kris": null,
-      "rusty": null,
-      "avg": 0
-    }
+    "ratings": { "connor": 60, "joe": 72, "kris": 70, "rusty": 37, "avg": 59.8 }
   }
 ]
